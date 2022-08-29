@@ -77,11 +77,11 @@ device tree:       {device_tree_paddr:016x}..{:016x}
         device_tree_paddr + dtb.total_size(),
     );
     // 启动副核
-    boot_secondary_harts(
-        hartid,
-        dtb,
-        secondary_hart_start as usize - mem_info.offset(),
-    );
+    // boot_secondary_harts(
+    //     hartid,
+    //     dtb,
+    //     secondary_hart_start as usize - mem_info.offset(),
+    // );
     // 转交控制权
     crate::primary_main(KernelConfig {
         phys_to_virt_offset: mem_info.offset(),

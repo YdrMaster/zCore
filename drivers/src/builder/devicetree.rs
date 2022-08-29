@@ -256,7 +256,7 @@ impl<M: IoMapper> DevicetreeDriverBuilder<M> {
 
         use crate::uart::*;
         let dev = Device::Uart(match comp {
-            c if c.contains("ns16550a") => {
+            c if c.contains("ns16550a") || c.contains("snps,dw-apb-uart") => {
                 Arc::new(unsafe { Uart16550Mmio::<u8>::new(base_vaddr?) })
             }
             #[cfg(feature = "board-d1")]
