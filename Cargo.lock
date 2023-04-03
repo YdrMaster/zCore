@@ -692,7 +692,7 @@ dependencies = [
  "log",
  "raw-cpuid 10.6.0",
  "riscv 0.8.0",
- "spin 0.9.4",
+ "spin 0.9.8",
  "tock-registers",
  "unicycle",
  "woke",
@@ -992,7 +992,7 @@ dependencies = [
  "bit_field",
  "bitflags",
  "log",
- "spin 0.9.4",
+ "spin 0.9.8",
  "volatile 0.3.0",
 ]
 
@@ -1045,7 +1045,7 @@ dependencies = [
  "riscv 0.9.0",
  "sbi-rt",
  "smoltcp",
- "spin 0.9.4",
+ "spin 0.9.8",
  "tempfile",
  "tock-registers",
  "trapframe",
@@ -1167,7 +1167,7 @@ dependencies = [
  "cortex-a",
  "raw-cpuid 10.6.0",
  "riscv 0.7.0",
- "spin 0.9.4",
+ "spin 0.9.8",
  "tock-registers",
  "x86_64",
 ]
@@ -1567,7 +1567,7 @@ source = "git+https://github.com/rcore-os/rcore-fs?rev=1a3246b#1a3246b1d3754f414
 dependencies = [
  "filetime",
  "libc",
- "spin 0.9.4",
+ "spin 0.9.8",
  "winapi",
 ]
 
@@ -1577,7 +1577,7 @@ version = "0.1.0"
 source = "git+https://github.com/rcore-os/rcore-fs?rev=1a3246b#1a3246b1d3754f414817d72a6217fc7b6076ff30"
 dependencies = [
  "rcore-fs",
- "spin 0.9.4",
+ "spin 0.9.8",
 ]
 
 [[package]]
@@ -1615,7 +1615,7 @@ dependencies = [
  "lazy_static",
  "log",
  "rcore-fs",
- "spin 0.9.4",
+ "spin 0.9.8",
 ]
 
 [[package]]
@@ -1625,7 +1625,7 @@ source = "git+https://github.com/rcore-os/rcore-fs?rev=1a3246b#1a3246b1d3754f414
 dependencies = [
  "log",
  "rcore-fs",
- "spin 0.9.4",
+ "spin 0.9.8",
 ]
 
 [[package]]
@@ -1636,7 +1636,7 @@ dependencies = [
  "bitvec",
  "log",
  "rcore-fs",
- "spin 0.9.4",
+ "spin 0.9.8",
  "static_assertions",
 ]
 
@@ -1648,7 +1648,7 @@ dependencies = [
  "bitvec",
  "log",
  "rcore-fs",
- "spin 0.9.4",
+ "spin 0.9.8",
  "static_assertions",
 ]
 
@@ -1907,9 +1907,9 @@ checksum = "13287b4da9d1207a4f4929ac390916d64eacfe236a487e9a9f5b3be392be5162"
 
 [[package]]
 name = "spin"
-version = "0.9.4"
+version = "0.9.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7f6002a767bff9e83f8eeecf883ecb8011875a21ae8da43bffb817a57e78cc09"
+checksum = "6980e8d7511241f8acf4aebddbb1ff938df5eebe98691418c4468d0b72a96a67"
 dependencies = [
  "lock_api",
 ]
@@ -2581,7 +2581,7 @@ dependencies = [
  "rcore-fs-sfs",
  "riscv 0.9.0",
  "sbi-rt",
- "spin 0.9.4",
+ "spin 0.9.8",
  "zcore-loader",
  "zircon-object",
 ]
